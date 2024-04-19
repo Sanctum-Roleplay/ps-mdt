@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 :root {
-    --color-1: #1E3955;
-    --color-2: #213F5F;
-    --color-3: #2C537B;
+    --color-1: #585b70;
+    --color-2: #45475a;
+    --color-3: #313244;
     --color-4: #23405E;
     --color-5: #152638;
     --color-6: #121f2c;
     --color-7: rgb(28, 54, 82);
-    --color-8: #2554cc;
-    --color-9: #6E707C;
-    --color-10: #8f741b;
+    --color-8: #181825;
+    --color-9: #1e1e2e;
+    --color-10: #f9e2af;
 }
 
 body {
@@ -164,7 +164,7 @@ input::-webkit-inner-spin-button {
 .header {
     height: 4vh;
     background-color: var(--color-1);
-    border: 5px solid #393B39;
+    border: 5px solid #585b70;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     width: 96.5%;
@@ -186,7 +186,7 @@ input::-webkit-inner-spin-button {
 .header-middle {
     background-color: var(--color-2);
     border-radius: 15px;
-    border: 5px solid #393B39;
+    border: 5px solid #585b70;
     width: fit-content;
     height: 3.5vh;
     padding: 8px;
@@ -585,31 +585,31 @@ span.bulletin-item-info[contenteditable]:empty::before {
 }
 
 #police-count {
-    background-color: #093095;
+    background-color: #89b4fa;
 }
 
 #bcso-count {
-background-color: #cc7e25;;
+    background-color: #fab387;;
 }
 
 #sasp-count {
-background-color: #2589cc;
+    background-color: #89dceb;
 }
 
 #ems-count {
-    background-color: #950909;
+    background-color: #eba0ac;
 }
 
 #doj-count {
-    background-color: #525252;
+    background-color: #cdd6f4;
 }
 
 #doc-count {
-    background-color: #7b25cc;
+    background-color: #cba6f7;
 }
 
 #pa-count {
-    background-color: #008080;
+    background-color: #a6e3a1;
 }
 
 .active-unit-list {
@@ -665,16 +665,16 @@ background-color: #2589cc;
     margin: auto;
     margin-left: 5px;
     margin-right: 0px;
-    background-color: #0B9509;
+    background-color: #a6e3a1;
     border-radius: 10px;
 }
 
 .green-status {
-    background-color: #099517;
+    background-color: #a6e3a1;
 }
 
 .yellow-status {
-    background-color: #958F09;
+    background-color: #f9e2af;
 }
 
 .unit-job {
@@ -688,24 +688,24 @@ background-color: #2589cc;
     margin: auto;
     margin-left: 5px;
     margin-right: 0px;
-    background-color: #093095;
+    background-color: #89dceb;
     border-radius: 10px;
 }
 
 .unit-police {
-    background-color: #093095;
+    background-color: #89dceb;
 }
 
 .unit-ems {
-    background-color: #950909;
+    background-color: #f38ba8;
 }
 
 .unit-doc {
-    background-color: #7b25cc;
+    background-color: #cba6f7;
 }
 
 .unit-pa {
-    background-color: #008080;
+    background-color: #a6e3a1;
 }
 
 .unit-name {
@@ -757,7 +757,7 @@ background-color: #2589cc;
 }
 
 .red-call {
-    background-color: #381515;
+    background-color: #eba0ac;
 }
 
 .call-item-top {
@@ -770,7 +770,7 @@ background-color: #2589cc;
 }
 
 .call-number {
-    background-color: #950909;
+    background-color: #f38ba8;
     color: white;
     font-size: 15px;
     font-weight: bolder;
@@ -785,7 +785,7 @@ background-color: #2589cc;
 }
 
 .call-code {
-    background-color: #097C95;
+    background-color: #89dceb;
     color: white;
     font-size: 15px;
     font-weight: bolder;
@@ -851,7 +851,7 @@ background-color: #2589cc;
 }
 
 .dispatch-line {
-    background-color: rgba(128, 128, 128, 0.1);
+    background-color: rgba(69, 71, 90, 0.1);
     height: 0.05vh;
     width: 100%;
     margin-top: 0.1vh;
@@ -1011,7 +1011,7 @@ a {
     color: white;
     font-size: 12px;
     font-weight: bolder;
-    background-color: #956E09;
+    background-color: #fab387;
 }
 
 .profile-bottom-info {
@@ -1076,7 +1076,7 @@ a {
     font-weight: lighter;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #1b8f25;
+    background-color: #a6e3a1;
     margin: auto;
     margin-left: 5px;
     margin-top: 10px;
@@ -1088,7 +1088,7 @@ a {
 }
 
 .manage-profile-save:hover {
-    background-color: #1caa28;
+    background-color: #89da82;
 }
 
 .manage-profile-info-container {
@@ -1263,7 +1263,7 @@ a {
     display: none;
     margin: auto;
     padding: 8px;
-    color: red;
+    color: #f38ba8;
     font-weight: bold;
     font-size: 20px;
 }
@@ -1836,23 +1836,23 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .revoke-licence:hover {
-    background-color: #950909;
+    background-color: #f38ba8;
 }
 
 .give-licence:hover {
-    background-color: #099517;
+    background-color: #a6e3a1;
 }
 
 .remove-image:hover {
-    background-color: #950909;
+    background-color: #f38ba8;
 }
 
 .expand-image:hover {
-    background-color: #099517;
+    background-color: #a6e3a1;
 }
 
 .copy-image-link:hover {
-    background-color: #099517;
+    background-color: #a6e3a1;
 }
 
 .view-incident:hover {
@@ -2144,7 +2144,7 @@ span.tag-input[contenteditable]:empty::before {
     font-weight: lighter;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: #1b8f25;
+    background-color: #a6e3a1;
     margin: auto;
     margin-left: 5px;
     margin-top: 10px;
@@ -2156,7 +2156,7 @@ span.tag-input[contenteditable]:empty::before {
 }
 
 .manage-incidents-save:hover {
-    background-color: #1caa28;
+    background-color: #7fd177;
 }
 
 .manage-incidents-title-tag {
@@ -3271,7 +3271,7 @@ span.tag-incident-input[contenteditable]:empty::before {
     font-weight: lighter;
     padding-top: 7px;
     padding-bottom: 7px;
-    background-color: #1b8f25;
+    background-color: #a6e3a1;
     margin: auto;
     margin-left: 0px;
     margin-top: 10px;
@@ -3283,7 +3283,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .manage-bolos-save:hover {
-    background-color: #1caa28;
+    background-color: #6ec566;
 }
 
 .manage-bolos-new {
@@ -3292,7 +3292,7 @@ span.tag-incident-input[contenteditable]:empty::before {
     font-weight: lighter;
     padding-top: 7px;
     padding-bottom: 7px;
-    background-color: #8f1b1b;
+    background-color: #f38ba8;
     margin: auto;
     margin-left: 5px;
     margin-top: 10px;
@@ -3303,7 +3303,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .manage-bolos-new:hover {
-    background-color: #aa1c1c;
+    background-color: #ca3760;
 }
 
 .manage-bolos-reports-content {
@@ -3482,7 +3482,7 @@ span.tag-incident-input[contenteditable]:empty::before {
 }
 
 .bolos-search-refresh:hover {
-    background-color: #aa891c;
+    background-color: #f0c975;
 }
 
 .bolos-search-title {
@@ -3785,39 +3785,39 @@ span.officer-tag-bolo-input[contenteditable]:empty::before {
 }
 
 .dispatch-info-job-lspd {
-    color: #2554cc;
+    color: #89b4fa;
 }
 
 .dispatch-info-job-bcso {
-    color: #cc7e25;
+    color: #fab387;
 }
 
 .dispatch-info-job-sast {
-    color: #2589cc;
+    color: #89dceb;
 }
 
 .dispatch-info-job-sasp {
-    color: #2589cc;
+    color: #89dceb;
 }
 
 .dispatch-info-job-doc {
-    color: #7b25cc;
+    color: #cba6f7;
 }
 
 .dispatch-info-job-sapr {
-    color: #5acc25;
+    color: #a6e3a1;
 }
 
 .dispatch-info-job-pa {
-    color: #008080;
+    color: #a6e3a1;
 }
 
 .dispatch-info-job-ambulance {
-    color: #cc2525;
+    color: #eba0ac;
 }
 
 .dispatch-info-job-doj {
-    color: #FFEAB9;
+    color: #cdd6f4;
 }
 
 .active-info-job-lspd {

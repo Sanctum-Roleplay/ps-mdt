@@ -3795,16 +3795,16 @@ $(document).ready(() => {
   });
   const customThemes = {
     lspd: {
-      color1: "#1E3955",
-      color2: "#213f5f",
-      color3: "#2C537B",
-      color4: "#23405E",
-      color5: "#152638",
-      color6: "#121f2c",
-      color7: "rgb(28, 54, 82)",
-      color8: "#2554cc",
-      color9: "#6E707C",
-      color10: "#8F741B",
+      color1: "#1e1e2e", // Base
+      color2: "#9399b2", // Overlay2
+      color3: "#6c7086", // Overlay0
+      color4: "#313244", // Sufrace 0
+      color5: "#45475a",
+      color6: "#74c7ec", 
+      color7: "rgb(108, 112, 134)", // Overlay0
+      color8: "#89dceb", // Blue
+      color9: "#11111b", // Crust
+      color10: "#89dceb",
       image: "img/LSPD.webp",
       name: "LOS SANTOS POLICE",
     },
@@ -3817,7 +3817,7 @@ $(document).ready(() => {
       color6: "#433714",
       color7: "#57471a",
       color8: "#2554cc",
-      color9: "#6E707C",
+      color9: "#585b70",
       color10: "#8F741B",
       image: "img/BCSO.webp",
       name: "BLAINE COUNTY SHERIFF OFFICE",
